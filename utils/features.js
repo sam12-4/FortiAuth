@@ -1,4 +1,5 @@
 import jwt from "jsonwebtoken";
+import 'dotenv/config'
 
 
 export const setCookie = (res, user, message, success, statusCode =200) => {
